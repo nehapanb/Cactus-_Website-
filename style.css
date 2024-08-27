@@ -1,0 +1,345 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    color: black;
+}
+
+#navbar ul li a:hover{
+    color: green;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 200px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.home .content-home{
+    display: flex;
+    flex-direction: column;
+}
+.home .content-home #success{
+    color: black;
+    font-size: 30px;
+}
+.home .content-home #cactus{
+    color: green;
+    font-size: x-large;
+    font-weight: 700;
+}
+.green-image img{
+    margin-top: -100px;
+    height: 500px;
+    width: 100%;
+}
+.btn{
+    height: 60px;
+    border-radius: 13px;
+    background-color: green;
+    width: 130px;
+    text-align: center;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.home2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-direction: row-reverse;
+}
+.home2 .home2-content{
+    display: flex;
+    flex-direction: column;
+}
+#home2-info{
+    font-size: 30px;
+    line-height: 40px;
+}
+#home2-info span{
+    color: green;
+}
+#services h1{
+    color: black;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/*Services Section*/
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+
+#services .box{
+    border: 4px solid green;
+    padding: 50px;
+    margin: 30px;
+    background-color: rgb(216, 227, 216);
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+/* Numbers*/
+
+.section number{
+    background: var(--gradientsupport);
+    text-align: right;
+    transition: all 2s linear;
+}
+
+.counter-numbers{
+    font-size: 4rem;
+    font-family: "Ubuntu", sans-serif;
+    color: green;
+
+}
+
+.section number{
+    font-family: "Ubuntu", sans-serif;
+}
+
+footer{
+    color: black;
+    font-size: 1rem;
+    padding:9px 20px;    
+}
+.services-container{
+   border: 1px solid white;
+    background-color: white;
+}
+.box img{
+    height: 200px;
+    width: 100%;
+    
+}   
+
+.services{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(/green-abstract-geometric-shape-background-free-vector.jpg);
+    justify-content: center;
+    width: 100%;
+}
+.box{
+    height: 400px;
+    width: 300PX;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 30px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    align-items: center;
+    padding-left: 30px;
+}
+    .number .number-content .line1{
+        display: flex;
+        gap: 80px;
+    }
+
+.number .number-content .line1 h2{
+    color: green;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.number .number-content .line2{
+    display: flex; 
+    gap: 40px;
+
+}
+.number .number-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 80px;
+    gap: 30px;
+}
+.number .number-content p{
+    text-align: left;
+}
+    #contact{display: flex;
+    flex-direction: column;}
+
+    /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+section#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 128, 0, 0.7); /* Green overlay */
+    background-image: url('background-image.jpg'); /* Use the actual image path */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.contact-container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Optional: Adds a slight transparency to the container */
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.normal-text {
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group input, textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #28a745;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 40px;
+    margin: 0px 30px;
+}
+.footer-info .heading{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: left;
+}
+.footer-info .heading a{
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+}
+.footer-info .heading a:hover{
+    color: #28a745;
+}
+.footer-info .heading p{
+    color: rgb(131, 131, 131) ;
+}
+.footer-info .heading .for-icons{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: white;
+     gap: 50px;
+     margin-left: 0px;
+    }
+
+
+.footer-info .heading .for-icons .icons:hover{
+    
+    color: green;
+
+    
+}
+footer{
+    text-align: center;
+}
